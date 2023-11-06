@@ -1,0 +1,59 @@
+<link rel="stylesheet" type="text/css" href="styles.css">
+
+#sdg6-widget {
+  background-color: #b3e5fc;
+  border: 2px solid #03a9f4;
+  padding: 30px;
+  color: #01579b;
+  width: 80%;
+  margin: auto;
+  border-radius: 15px;
+}
+
+#sdg6-widget h1, #sdg6-widget h2 {
+  color: #01579b;
+}
+
+#water-form {
+  margin-top: 30px;
+  border: 2px solid #0288d1;
+  background-color: #e1f5fe;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#water-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#water-form input[type=number] {
+  margin: 10px 0px 20px;
+  width: 100%;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid #0288d1;
+  border-radius: 5px;
+}
+
+#water-form input[type=submit] {
+  background-color: #03a9f4;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  width: 100%;
+}
+
+#water-form input[type=submit]:hover {
+  background-color: #0288d1;
+}
+
+#result {
+  margin-top: 30px;
+  font-weight: bold;
+  padding: 20px;
+  border: 2px solid #0288d1;
+  background-color: #e1f5fe;
+  border-radius: 10px;
+}
